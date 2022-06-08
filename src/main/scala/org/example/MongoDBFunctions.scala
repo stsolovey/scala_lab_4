@@ -13,7 +13,7 @@ import java.io.File
 
 class MongoDBFunctions {
 
-  val uri: String = "mongodb+srv://stepan:ESIkMq7upKbmLC4h@cluster0.ldu6h.mongodb.net/?retryWrites=true&w=majority"
+  val uri: String = "mongodb+srv://<username>:<password>@cluster0.ldu6h.mongodb.net/?retryWrites=true&w=majority"
   val databaseName = "lab4"
   val collectionName = "presidents"
   val dirPath = "C:\\Projects\\presidents"
